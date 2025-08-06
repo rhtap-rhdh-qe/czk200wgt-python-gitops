@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: czk200wgt-python-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/czk200wgt-python

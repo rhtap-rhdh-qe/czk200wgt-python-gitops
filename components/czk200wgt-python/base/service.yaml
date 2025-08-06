@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: czk200wgt-python
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: czk200wgt-python 
+  name: czk200wgt-python
+spec:
+  ports:
+  - port: 8081 
+    targetPort: 8081 
+  selector:
+    app.kubernetes.io/instance: czk200wgt-python 
